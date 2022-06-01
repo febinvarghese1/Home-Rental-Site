@@ -7,4 +7,16 @@
     .sidebar-menu{
         @apply py-5 uppercase text-xl font-semibold text-center;
     }
+    .services{
+      @apply  border-2 border-transparent border-t-red-400 border-b-red-500 flex flex-col items-center mt-3 md:w-1/2 mx-3;
+    }
+    .services-content{
+      @apply text-center;
+    }
 }
+
+@layer utilities {
+    .h-500 {
+      height: 500px;
+    }
+  }
